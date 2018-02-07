@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparentcolor"
+    tools:context="payment.card.io.nfcnativecode.NFCReaderActivity">
+
+    <TextView
+        android:id="@+id/NFCData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gifImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Cancel"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/roundcorner"
+        android:visibility="visible" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:src="@drawable/nfcanimimage"
+        android:id="@+id/gifImageView" />
+
+</RelativeLayout>
