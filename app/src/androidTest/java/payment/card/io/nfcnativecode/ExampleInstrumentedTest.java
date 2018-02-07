@@ -24,3 +24,4 @@ public class ExampleInstrumentedTest {
         assertEquals("payment.card.io.nfcnativecode", appContext.getPackageName());
     }
 }
+//my changes
